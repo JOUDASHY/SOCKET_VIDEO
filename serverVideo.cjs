@@ -116,5 +116,5 @@ io.on('connection', (socket) => {
   });
 });
 
-const PORT = 5002;
+const PORT = 80;
 server.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
